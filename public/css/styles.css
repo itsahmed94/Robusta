@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border-bottom: 5px solid orange;
+}
+.page-wrap {
+    margin-top: -30px;
+    min-height: 100vh;
+    background: #dedede;
+}
+
+ul a {
+    font-weight: bolder;
+}
+
+ul a:hover {
+    background-color: maroon;
+    color: #fff !important;
+    font-weight: bolder;
+    border: 1px solid orange;
+}
