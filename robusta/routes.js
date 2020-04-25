@@ -12,12 +12,12 @@ router.get('', (req, res)=>{
 
 //about
 router.get('/about', (req, res)=>{
-    res.render('index.ejs', {title : 'about'});
+    res.render('about', {title : 'about'});
 });
 
 //services
 router.get('/services', (req, res)=>{
-    res.render('index.ejs', {title : 'help'});
+    res.render('help.ejs', {title : 'help'});
 });
 
 module.exports = router;
