@@ -41,7 +41,7 @@ app.use('/task-api-v1', taskRouter);
 app.use('/', mainIndex);
 
 
-console.log(path.join(__dirname , '../node_modules/jquery/dist'));
+//console.log(path.join(__dirname , '../node_modules/jquery/dist'));
 
 //set up view path and engine
 app.set('view engine', 'ejs');
@@ -55,4 +55,6 @@ app.listen(port, () => {
     console.log('Server is up on port ' + port)
     //console.log(process.env.SECRET)
 })
+
+module.exports = app
 

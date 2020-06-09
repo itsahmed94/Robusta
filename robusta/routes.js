@@ -3,7 +3,7 @@ const router = express.Router();
 
 //main page
 router.get('', (req, res)=>{
-    res.render('index.ejs', {title : 'MainPage'});
+    res.render('index.ejs');
 });
 
 // router.get('*', (req, res)=>{
@@ -11,8 +11,8 @@ router.get('', (req, res)=>{
 // });
 
 //about
-router.get('/about', (req, res)=>{
-    res.render('about', {title : 'about'});
+router.get('/weather', (req, res)=>{
+    res.render('weather', {title : 'about'});
 });
 
 //services
