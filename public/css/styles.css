@@ -224,23 +224,4 @@ video{
     display: none !important;
   }
 
-  /*#####################team#################################*/
-
-#team .card img {
-  margin-top: -50px;
-}
-
-
-#team .card hr {
-  background-color: #f15025;
-}
-
-
-#team .card .fa {
-  color: #f15025;
-  font-size: 30px;
-}
-
-#team .card .fa:hover {
-  color: #242a33;
-}
+ 
